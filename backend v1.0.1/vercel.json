@@ -1,10 +1,10 @@
 {
-    "version": 2,
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "src/app.py"
-      }
-    ]
-  }
-  
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "backend/src/app.py"
+    }
+  ],
+  "installCommand": "pipenv install"
+}
